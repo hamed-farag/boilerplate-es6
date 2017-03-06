@@ -18,7 +18,7 @@ var index = function () {
   }
 
   _createClass(index, [{
-    key: 'print',
+    key: 'printEmployeeName',
     get: function get() {
       var fullName = this.employee.fullName();
       console.log(fullName);
