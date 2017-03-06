@@ -1,6 +1,7 @@
 # Simple boilerplate es6
 
 > boilerplate-es6 is a simple project for testing your ES6 skill.
+> You can use gulp or webpack for building your code.
 
 ## Install
 
@@ -10,6 +11,9 @@ $ git clone https://github.com/hamed-farag/boilerplate-es6.git
 
 ## Install all dependencies
 $ npm install
+
+## If you want to work with webpack, don't forget to install it globally.
+$ npm install webpack -g
 ```
 
 ## Basic concept
@@ -19,6 +23,7 @@ $ npm install
   - [babel](https://babeljs.io/)
 * Build system
   - [gulp](http://gulpjs.com/)
+  - [webpack](https://webpack.js.org/)
 
 ## Script Tasks
 
@@ -28,6 +33,8 @@ $ npm install
 
 ```sh
 $ npm run gulp
+or
+$ npm run webpack
 ```
 
 ### watch
@@ -36,6 +43,8 @@ $ npm run gulp
 
 ```sh
 $ npm run gulp:watch
+or
+$ npm run webpack:watch
 ```
 ## License
 
