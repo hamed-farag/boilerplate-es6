@@ -1,0 +1,41 @@
+{
+  "name": "boilerplate-es6",
+  "version": "0.0.1",
+  "description": "A simple boilarplate for testing ES6 features.",
+  "main": "/dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamed-farag/boilerplate-es6.git"
+  },
+  "scripts": {
+    "gulb": "gulp es6",
+    "gulb:watch": "gulp es6:watch"
+  },
+  "keywords": [
+    "ES6",
+    "boilarplate",
+    "gulp",
+    "starter",
+    "simple"
+  ],
+  "author": {
+    "name": "Hamed Farag",
+    "url": "https://github.com/hamed-farag",
+    "twitter": "hamed-farag"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hamed-farag/boilerplate-es6/issues"
+  },
+  "homepage": "https://github.com/hamed-farag/boilerplate-es6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cli": "^1.2.2"
+  }
+}
